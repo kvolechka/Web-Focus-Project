@@ -1,0 +1,263 @@
+@media (max-width: 1504px) {
+    .foot-right #h2 {
+        padding-top: 0;
+    }
+}
+@media (max-width: 1280px) {
+    .contacts {
+        justify-content: flex-end;
+    } 
+    .contacts span, .contacts a {
+        margin: 0;
+        margin-left: 5px;
+    }
+    .contacts span img {
+        width: 50%;
+        display: flex;
+    }
+    .navigation, .contacts, .our-advantages, .advantages, .foot-column-all {
+        flex-wrap: wrap;
+    }
+    .eye img {
+        width: 80%;
+    }
+    .advantages {
+        top: -2%;
+    }
+    .description {
+        padding-top: 51.36vw;
+    }
+    .cooperation-all {
+        flex-direction: column;
+    }
+    .cooperation-box-left {
+        padding-bottom: 15px;
+    }
+    .cooperation-box-right, .cooperation-box-left, .slider-one-text p, .block-left p.fz15 {
+        width: 100%;
+    }
+    .cost-legal-serv {
+        width: 60%;
+    }
+    .confidence-list li::before {
+        left: -4vw;
+    }
+    .serv .commis.fz20 {
+        font-size: clamp(14px, 1vw, 20px);
+    }
+    button.commis.fz13 {
+        padding: 3px 0;
+    }
+    .slider-one-text {
+        width: 35%;
+    }
+    .lato.fz16 {
+        font-size: clamp(14px, 0.83vw, 16px);
+    }
+    .our-advantages, .advantages {
+        justify-content: space-between;
+    }
+    .our-advantages-all .content-box, .advantages .content-box {
+        margin-right: 0;
+        width: 45%;
+        margin-top: 20px;
+    }
+    .slider-three {
+        padding-top: 15vw;
+    }
+    .block-left {
+        padding: 2.6vw 0.5vw 3.12vw 3.6vw;
+    }
+}
+@media (max-width: 992px) {
+    .eye img {
+        visibility: hidden;
+    }
+    .logo {
+        padding-right: 10px;
+    }
+    .language {
+        width: 20%;
+    }
+    .commis.fz40 {
+        font-size: clamp(14px, 2vw, 40px);
+    }
+    .lato.fz15 {
+        font-size: clamp(12px, 0.78vw, 15px);
+    }
+    button.commis.fz13 {
+        padding: 0px 0;
+        font-size: clamp(12px, 0.68vw, 13px);
+    }
+    .slider-one-text {
+        height: 18.5vw;
+        width: 44%;
+    }
+    .description {
+        padding-top: 55.36vw;
+    }
+    .description img {
+        max-height: 500px;
+    }
+    .block-left {
+        padding: 2.6vw 3.6vw 3.12vw;
+    }
+    .bgr-cont, .slide-three, .card-top-one, footer.container {
+        flex-wrap: wrap;
+    }
+    .slide-three .content {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .slide-three .lato.fz12 {
+        position: unset;
+    }
+    .commis.fz26 {
+        font-size: clamp(14px, 1.35vw, 26px);
+    }
+    .card-top-one, .main-activities-text, .duties-top, .reviews, .services .serv-left {
+        flex-direction: column;
+    }
+    .card-text p, .reviews-box-left, .serv, .logo img, .description img, .block-left, .slide-three .content,
+    .clr-one, .clr-two, .clr-three, .confidence-list li, .foot-center, .foot-right {
+        width: 100%;
+    }
+    .confidence-list li {
+        margin-bottom: clamp(12px, 2vw, 35px);
+    }
+    .confidence-box-left {
+        width: 45%;
+    }
+    .confidence-list li::before {
+        left: -5.5vw;
+    }
+    .foot-center, .foot-right {
+        padding-right: 0;
+        padding-top: 15px;
+    }
+    .our-advantages-bottom-text p {
+        width: 80%;
+    }
+    .duties-top-box {
+        margin-right: 0;
+        width: 91.6%;
+        margin-top: 10px;
+    }
+    .button-card, .reviews-box-right, .mat-right {
+        padding-top: 10px;
+    }
+    .slider-two {
+        bottom: -2.5%;
+    }
+    .slider-arrow-left {
+        left: 13%;
+    }
+    .slider-arrow-right {
+        right: 13%;
+    }
+    .mat-right .lato.fz15 {
+        margin-left: 0;
+    }
+    .radio-button-box .radio-button {
+        padding: 0.5vw;
+    }
+    .serv-left {
+        align-items: end;
+    }
+    .slider-three .radio-button-box {
+        margin-right: clamp(40px, 7vw, 130px);
+    }
+}
+@media (max-width: 700px) {
+    .logo-companies {
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+}
+@media (max-width: 580px) {
+    .slider-one-arrow-left, .slider-one-arrow-right {
+        top: 85%;
+    }
+    .advantages .content-box {
+        width: 97%;
+    }
+    .our-advantages, .advantages, .confidence, .client-get {
+        flex-direction: column;
+    }
+    .our-advantages-all .content-box {
+        width: 96.7%;
+    }
+    .description {
+        padding-top: 199.36vw;
+    }
+    .advantages {
+        top: -0.3%;
+    }
+    .slider-one-text {
+        height: 21vw;
+        width: 58%;
+    }
+    button.commis.fz13 {
+        font-size: clamp(9px, 0.68vw, 13px);
+        width: 49%;
+    }
+    .slider-one-arrow-left {
+        left: 49.8vw;
+    }
+    .slider-one-arrow-right {
+        left: 54.96vw;
+    }
+    .content-top, .content-bottom, .duties-box-bottom-all {
+        flex-direction: column;
+    }
+    .logo {
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+    .contacts {
+        justify-content: center;
+    }
+    .commis.fz40 {
+        font-size: clamp(12px, 2vw, 40px);
+        line-height: 1;
+    }
+    .slider-one-text p {
+        margin-top: 0;
+        margin-bottom: 1.3vw;
+    }
+    .language {
+        width: 100%;
+        justify-content: center;
+    }
+    .commis.fz28 {
+        font-size: clamp(18px, 1.45vw, 28px);
+    }
+    .confidence-box-left, .confidence-box-right {
+        width: 100%;
+        padding-top: 10px
+    }
+    .confidence-list li::before {
+        left: -6.5vw;
+    }
+    .slider-two {
+        bottom: -1.5%;
+    }
+}
+@media (max-width: 480px) {
+    .confidence-list li::before {
+        left: -9.5vw;
+    }
+    .commis.fz20 {
+        font-size: clamp(14px, 1vw, 20px);
+    }
+}
+@media (max-width: 380px) {
+    .description {
+        padding-top: 212vw;
+    }
+}
+@media (max-width: 363px) {
+    .description {
+        padding-top: 222vw;
+    }
+}
