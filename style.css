@@ -113,6 +113,7 @@ body {
     width: 61vw;
     padding-left: 18.8vw;
     padding-right: 18.8vw;
+    margin: 0 auto;
 }
 /*Переиспользуемые стили*/
 
@@ -226,12 +227,12 @@ header.container {
     z-index: 4;
 }
 .slider-one-arrow-left {
-    left: 20.8vw;
+    left: 20%;
     top: 78%;
     display: block;
 }
 .slider-one-arrow-right {
-    left: 23.96vw;
+    right: 75%;
     top: 78%;
     display: block;
 }
@@ -441,9 +442,10 @@ header.container {
     font-weight: bold;
     line-height: 2vw;
     color: #DEC377;
+    padding-top: 10px;
 }
 .slide-three .desc {
-    padding-top: 1vw;
+    padding-top: 20px;
 }
 .slider-three .menu {
     display: flex;
