@@ -185,8 +185,7 @@
         width: 80%;
     }
     .duties-top-box {
-        margin-right: 0;
-        width: 91.6%;
+        width: 94.6%;
         margin-top: 10px;
     }
     .button-card, .reviews-box-right, .mat-right {
@@ -202,8 +201,7 @@
     .slider-arrow-right {
         right: 13%;
     }
-    .slider-two .slider-arrow-left,
-    .slider-two .slider-arrow-right {
+    .slider-two .slider-arrow-left, .slider-two .slider-arrow-right {
         padding: 7px 14px 7px 12px;
         background-color: white;
         border-radius: 50%;
@@ -233,7 +231,6 @@
     .reviews {
         padding-top: 9.47vw;
     }
-    
     .logo-companies {
         margin-top: 25px;
     }
@@ -243,6 +240,9 @@
         width: 89vw;
         padding-left: 15px;
         padding-right: 15px;
+    }
+    header.container {
+        padding-bottom: 2.14vw;
     }
     .content-top, .content-bottom {
         flex-direction: column;
@@ -295,10 +295,22 @@
     .card-top-one img {
         height: 80px;
     }
-    .card-top-one:nth-child(2n) {
+    .main-activities-list, .main-activities-text, .cooperation-all, .cost-legal-serv {
+        padding-top: 60px;
     }
-
-
+    .cost-legal-serv, .cooperation-box-left {
+        padding-bottom: 50px;
+    }
+    .image-pen_with_notepad {
+        padding-top: 30px;
+    }
+    .duties-bottom {
+        padding-top: 10px;
+    }
+    .description {
+        padding-top: 40px;
+    }
+}
 @media (max-width: 580px) {
     header .navigation {
         display: contents;
@@ -312,11 +324,11 @@
     .slider-one .lato.fz15 {
         font-size: clamp(12px, 0.78vw, 15px);
     }
-    slider-one-text {
+    .slider-one-text {
         height: 21vw;
         width: 58%;
     }
-    .advantages  {
+    .advantages, .our-advantages-all .content-box {
         display: none;
     }
     .our-advantages, .advantages, .confidence, .client-get {
@@ -390,7 +402,13 @@
     }
     .confidence-list li::before {
         left: -4.5vw;
-
+    }
+    .duties-top-box {
+        margin-right: 0
+    }
+    .slider-three {
+        padding-top: 15vw;
+    }
 }
 @media (max-width: 480px) {
     .commis.fz20 {
@@ -398,5 +416,11 @@
     }
     .confidence-list li {
         width: 80%;
+    }
+}
+@media (max-width: 390px) {
+    .slide button.commis.fz13 {
+        line-height: 1;
+        width: clamp(140px,10.4vw,200px);
     }
 }
