@@ -1,3 +1,6 @@
-# Web-Focus-Project
-Landing
-Test MK
+# WebFocus Project
+## By Anastaia Karolik
+### Technologies:
+- HTML
+- CSS
+- JS
